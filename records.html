@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Records - Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Expense Tracker</h1>
+        <div class="nav-links">
+            <a href="index.html">Dashboard</a>
+            <a href="income.html">Add Income</a>
+            <a href="expense.html">Add Expense</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Expense Records</h1>
+            <div class="filters">
+                <input type="date" id="dateFilter">
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="Food">Food</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Toll">Toll</option>
+                    <option value="Kids">Kids</option>
+                    <option value="Dhoop">Dhoop</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button id="filterBtn" class="btn">Filter</button>
+            </div>
+            <p>Total Expenses: <span id="totalCount">0</span></p>
+            <div id="recordsList"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
