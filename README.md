@@ -51,6 +51,10 @@ python -m http.server 8080
 
 > ⚠️ Data is stored in your browser's `localStorage` — clearing browser data will reset your records.
 
+## 🔗 Connect
+
+- [LinkedIn — Devanshu Raut](https://www.linkedin.com/in/devanshu-raut-632167334/)
+
 ## 📄 License
 
 MIT © 2026 Devanshu Raut
